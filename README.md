@@ -11,6 +11,8 @@ Muc should require no external dependencies other than the GNU Utils and a POSIX
 
 Once downloaded muc will function as a standard shell script, if you wish to install to the system, simply copy muc.sh to `/usr/local/bin`
 
+You can also use muc without installing, by running `curl https://raw.githubusercontent.com/Bravotic/muc/master/muc.sh | sh -s ...`.  Simply replace `./muc.sh` or `muc.sh` with `curl https://raw.githubusercontent.com/Bravotic/muc/master/muc.sh | sh -s ` in the rest of this file.  However this is extremely insecure and should not be used unless necessary.
+
 ## Install containers
 
 ### From the web
